@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#03045E;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#navbar ul li{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar ul li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: #0096C7;
+}
