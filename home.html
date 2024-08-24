@@ -12,13 +12,53 @@
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">Academics</a></li>
-            <li><a href="contact.asp">Admission</a></li>
-            <li><a href="about.asp">Contact</a></li>
-            <li><a href="about.asp">About Us</a></li>
-            <li><a href="about.asp">News Events</a></li>
-            <li><a href="about.asp">More Links</a></li>
+            <li><a href="" class="logo"><img src="https://www.vmuf.edu.ph/img/logo.png" alt="Logo"></a></li>
+            <li><a href="">Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Academics</a>
+                <div class="dropdown-content">
+                    <a href="">Program Offerings</a>
+                    <a href="">VMUF Senior High School</a>
+                    <a href="">Basic Education program</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Admission</a>
+                <div class="dropdown-content">
+                    <a href="">General Policies</a>
+                    <a href="">Enrollment Procedures</a>
+                    <a href="">Requirements</a>
+                    <a href="">Scholaship Grant</a>
+                </div>
+            </li>
+            <li><a href="">Contact</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">About Us</a>
+                <div class="dropdown-content">
+                    <a href="">Board / Bar / TESDA Passers</a>
+                    <a href="">History</a>
+                    <a href="">Vision Mission</a>
+                    <a href="">Founders</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Campus Gallery</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">News Events</a>
+                <div class="dropdown-content">
+                    <a href="">News</a>
+                    <a href="">Events</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">More Links</a>
+                <div class="dropdown-content">
+                    <a href="">Student Services and Facilities</a>
+                    <a href="">The Virginian</a>
+                    <a href="">Research </a>
+                    <a href="">Academic Calendar</a>
+                </div>
+            </li>
         </ul>
     </div>
 
@@ -30,24 +70,85 @@
         <p>Where world-class faculty, innovative research, and dynamic students come together to advance education and
             foster change in the world.</p>
     </div>
+    <div class="video-container">
+        <video width="640" height="360" controls autoplay muted>
+            <source src="images/vmufvid.mp4" type="video/mp4">
+        </video>
+    </div>
 
     <div class="gallery-container">
         <div class="gallery-item">
             <img src="images/vmufblg.jpg" alt="Image 1">
-        </div>
-        <div class="gallery-item">
-            <img src="images/renyel.png" alt="Image 2">
-        </div>
-        <div class="gallery-item">
-            <img src="images/bosmachu.png" alt="Image 3">
+            <p class="gallery-description">OVAL</p>
         </div>
         <div class="gallery-item">
             <img src="images/vmufblg1.png" alt="Image 4">
+            <p class="gallery-description">VMUF BUILDING</p>
+        </div>
+        <div class="gallery-item">
+            <a href = "https://earth.google.com/web/@15.96794636,120.31957877,5.92427683a,0d,61.95218033y,309.2925565h,82.93406712t,0r/data=IhoKFkJMbmdDZVlqSmRRS3JoNW4yR3MxSHcQAjoDCgEw" target="_blank">
+            <img src="images/renyel.png" alt="Image 2">
+            <p class="gallery-description">CSL EXTENSION HOUSE</p>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href ="https://earth.google.com/web/search/McDonald%27s,+Rizal+Avenue,+San+Carlos+City,+Pangasinan/@15.93498424,120.34724879,10.04961491a,0d,60y,256.15544986h,96.52227166t,0r/data=CqABGnYScAolMHgzMzkxNDU2YjNiYzM1NDg5OjB4YmM0Yzg5NTI1NDgyMTNjOBnOFN_1Pt4vQCGybJwDOhZeQCo1TWNEb25hbGQncywgUml6YWwgQXZlbnVlLCBTYW4gQ2FybG9zIENpdHksIFBhbmdhc2luYW4YASABIiYKJAlvfw5eN_AvQBGvgYUMUu8vQBkOoZlLfBReQCGpfZ8qYBReQCIaChZjZ1REdVdrczZqX2k3eDdmUzdrZ3dREAI6AwoBMA" target="_blank">
+            <img src="images/bosmachu.png" alt="Image 3">
+            <p class="gallery-description">BOSS MATTHEW</p>
+        </a>
+        </div>
+        <div class="gallery-item">
+            <img src="images/ilovevmuf.jpg" alt="Image 4">
+            <p class="gallery-description">I LOVE VMUF</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/stadium.jpg" alt="Image 4">
+            <p class="gallery-description">STADIUM</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/centrum.jpg" alt="Image 4">
+            <p class="gallery-description">CENTRUM</p>
         </div>
     </div>
-    <p id = "intro">Virgen Milagrosa University Foundation (VMUF) is a privately supported, co-educational, Catholic university in San Carlos, Pangasinan, Philippines. It was founded in 1958 by Dr. Martin Posadas and Dr. Rosalina Q. Posadas.
-        VMUF offers courses in the medical and paramedical fields, in liberal and applied arts, sciences, and technical-vocational courses, senior high school, secondary, elementary and pre-school courses.     
-        VMUF covers 19 hectares land area in MP Posadas Avenue, San Carlos City, Pangasinan, about 200 km, north of Manila, the capital of the Philippines. The Philippine national games (Palarong Pambansa) was held for the first time in there in 1995.     
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/dikoalam.jpg" alt="Image 1">
+            <p class="gallery-description">DAANAN</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/gazebo.jpg" alt="Image 2">
+            <p class="gallery-description">GAZEBO</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/maynagkissdito.jpg" alt="Image 3">
+            <p class="gallery-description">MAY NAG KISS DITO</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/tamad.jpg" alt="Image 4">
+            <p class="gallery-description">PARKING LOT</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/daan.jpg" alt="Image 4">
+            <p class="gallery-description">DAANAN ULIT</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/cop.jpg" alt="Image 4">
+            <p class="gallery-description">PUTING BUILDING</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/ebikeparking.jpg" alt="Image 4">
+            <p class="gallery-description">E-BIKE PARKING LOT</p>
+        </div>
+    </div>
+    
+    <p id="intro">Virgen Milagrosa University Foundation (VMUF) is a privately supported, co-educational, Catholic
+        university in San Carlos, Pangasinan, Philippines. It was founded in 1958 by Dr. Martin Posadas and Dr. Rosalina
+        Q. Posadas.
+        VMUF offers courses in the medical and paramedical fields, in liberal and applied arts, sciences, and
+        technical-vocational courses, senior high school, secondary, elementary and pre-school courses.
+        VMUF covers 19 hectares land area in MP Posadas Avenue, San Carlos City, Pangasinan, about 200 km, north of
+        Manila, the capital of the Philippines. The Philippine national games (Palarong Pambansa) was held for the first
+        time in there in 1995.
         In 2019, VMUF was granted autonomous status by the Commission on Higher Education.</p>
 </body>
 
