@@ -9,6 +9,8 @@ body {
     top: 0px;
     z-index: 696969696969;
     background-color: #03045E;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar .logo img {
@@ -173,4 +175,23 @@ body {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.googleMap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.googleMap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px; 
 }
